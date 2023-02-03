@@ -47,7 +47,7 @@ nav ul li a:hover{
 }
 div{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 div img{
     border: 2px blue solid;
@@ -56,6 +56,7 @@ div img{
 }
 .kepek{
     background-color: white;
+    border: none;
 }
 article{
     background-color: rgb(154, 225, 247) ;
@@ -101,6 +102,10 @@ footer{
                             "as"
                             "f ";
     }
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     nav ul li{
         list-style: none;
         display: block;
@@ -129,6 +134,10 @@ footer{
                             "a a"
                             "as as"
                             "f f";
+    }
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     nav ul li{
         list-style: none;
