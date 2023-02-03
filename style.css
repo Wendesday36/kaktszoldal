@@ -12,7 +12,7 @@ main{
                         "f f";
 }
 header{
-    background-color: rgb(136, 198, 226);
+    background-color: rgb(154, 225, 247);
     border: 2px blue solid;
     grid-area: h;
     text-align: center;
@@ -22,7 +22,7 @@ header{
     width: auto;
 }
 nav{
-    background-color: blue;
+    background-color: rgb(38, 180, 199);
     height: 50px;
     grid-area: n;
     margin: 10px;
@@ -58,7 +58,7 @@ div img{
     background-color: white;
 }
 article{
-    background-color:rgb(136, 198, 226) ;
+    background-color: rgb(154, 225, 247) ;
     color: black;
     grid-area: a;
     border-radius: 10px;
@@ -82,7 +82,7 @@ aside{
 footer{
     grid-area: f;
     text-align: center;
-    background-color: rgb(136, 198, 226);
+    background-color:  rgb(154, 225, 247);
     border: 2px blue solid;
     margin: 10px;
     border-radius: 10px;
